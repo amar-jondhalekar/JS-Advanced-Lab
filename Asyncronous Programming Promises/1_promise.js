@@ -4,3 +4,4 @@ const promise = new Promise((resolve, reject) => {
     // Call 'resolve' function when the operation succeeds 
     // Call 'reject' function when the operation encounters and error 
 });
+

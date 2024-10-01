@@ -1,3 +1,5 @@
+Some short examples of how you can use **Promises** in different scenarios like API calls, file handling, data fetching, animations, and event handling in JavaScript:
+
 ### 1. **API Calls Using Promises:**
 
 Fetching data from an API with `fetch()` that returns a promise:

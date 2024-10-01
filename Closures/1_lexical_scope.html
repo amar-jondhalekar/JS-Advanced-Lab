@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Lexical Scoping </title>
+</head>
+<body>
+    <!-- Lexical Scoping in closures -->
+    <script>
+        function outerScope(){
+            const outerVariable = 'outer';
+            function innerScope(){
+                console.log(outerVariable);
+            }
+            innerScope();
+        }
+        outerScope();
+    </script>
+</body>
+</html>

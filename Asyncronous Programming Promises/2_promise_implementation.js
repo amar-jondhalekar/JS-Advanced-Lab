@@ -26,3 +26,6 @@ myPromise
         console.error(error);
     });
 
+
+    // Success! Random Number: 4
+    // Error! Random Number: 9

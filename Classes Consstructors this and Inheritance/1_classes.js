@@ -1,6 +1,11 @@
 // class example
 
 class Person {
+    /*
+        Constructor :
+            Constructors are special methods within classes that are automatically called whhen an object is created of the class using the new keyword.
+    */
+   
     constructor(name, age){
         this.name = name;
         this.age = age;
@@ -26,5 +31,5 @@ person2.sayHello();
         Code Reusability 
         Polymorphism 
         Abstraction
-        
+
 */
